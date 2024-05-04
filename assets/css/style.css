@@ -3,3 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+
+
+/* tablet */
+@media(width < 1280px){
+
+
+}
+
+
+/* phone */
+
+@media(width < 768px){
+    
+}
