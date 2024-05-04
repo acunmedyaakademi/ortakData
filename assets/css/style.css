@@ -68,8 +68,15 @@ a {
     margin-left: 100px;
 }
 
+.giris-yazi {
+    margin-top: 40px;
+}
+
 .giris-yazi p {
     margin-bottom: 50px;
+    margin-top: 50px;
+    text-wrap: wrap;
+    font-size: x-large;
 }
 
 .giris-yazi h1{
@@ -88,12 +95,64 @@ a {
     padding: 10px 20px;
     margin-top: 50px;
     border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+.giris-yazi a:hover {
+    transition: all 0.4s ease-in;
+    font-size: xx-large;
+    font-weight: 800;
+    text-decoration: double;
+} 
 
 .giris-resim img{
     border-radius: 20px;
-    max-width: 500px;
-    height: 400px;
+    max-width: 600px;
+    height: 500px;
+}
+
+.giris2 {
+    margin-top: 70px;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+}
+
+.giris2 img {
+    max-width: 700px;
+    max-height: 500px;
+    border-radius: 25px;
+}
+
+.giris2-yazi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px
+
+} 
+
+.giris2-yazi h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.giris2-yazi p {
+    text-wrap: wrap;
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+.giris2-yazi a {
+    background-color: coral;
+    padding: 15px 120px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-style: initial;
+    font-size: large;
+    color: beige;
 }
 /* ramazan finish */
 
