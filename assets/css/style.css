@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* navbar start*/
+/* ramazan start*/
 
 a {
     text-decoration: none;
@@ -68,8 +68,8 @@ a {
     margin-left: 100px;
 }
 
-.giris-yazi {
-    max-width: 500px;
+.giris-yazi p {
+    margin-bottom: 50px;
 }
 
 .giris-yazi h1{
@@ -82,10 +82,12 @@ a {
 
 .giris-yazi a {
     background-color: chocolate;
-    color: black;
+    color: rgb(254, 253, 253);
     font-weight: 500;
     font-size: xx-large;
     padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
 }
 
 .giris-resim img{
@@ -93,7 +95,7 @@ a {
     max-width: 500px;
     height: 400px;
 }
-/* navbar finish */
+/* ramazan finish */
 
 .main-menu{
     width: 100%;
