@@ -23,27 +23,65 @@
 .data-recipes{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 50px;
+    gap: 10px;
 }
 
-.recipies-box{
-    padding: 30px;
-}
 
-.recipies-box img{
+.explore-box img{
     max-width: 100%;
-    height: 300px;
-    object-fit: contain;
 }
 
 .explore-title{
     font-family: var(--first-fonts);
-    font-size: 25px;
+    font-size:45px;
     font-weight: 500;
+    margin: 20px 0;
 }
 
 .explore-grids{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 50px;
+}
+
+.explore-subtitle{
+    font-size: 20px;
+    color: #000;
+    font-family: var(--first-fonts);
+}
+
+.explore-rating{
+    font-size: 16px;
+    color: #000;
+    font-family: var(--first-fonts);
+    margin: 10px 0;
+}
+.explore-desc{
+    font-size: 16px;
+    color: #000;
+    font-family: var(--first-fonts);
+}
+
+.recipies-email{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fff0ed;
+}
+
+
+.emailhead{
+    font-size: 48px;
+    color: #000;
+    font-family: var(--first-fonts);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.emailtext{
+    font-size: 36px;
+    color: gray;
+    font-family: var(--first-fonts);
+    margin: 10px 0;
+    font-weight: 300;
+    text-align: center;
 }
