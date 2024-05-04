@@ -11,14 +11,16 @@ async function recipesProduct(){
     const product = recipiesSelect.recipes
 
 
-    for(const products of product)[
-        datarecipiesCont.innerHTML += `
-            <div class=""recipies-box>
-                <img src="">
-                <h2 class="recipies-title">
-            </div>
-        `
-    ]
+    for(const products of product){
+    datarecipiesCont.innerHTML += `
+    <div class="recipies-box">
+        <img src="${products.image}">
+        <h2 class="recipies-title"></h2>
+    </div>
+    `
+}
+        
+    
 }
 
 
