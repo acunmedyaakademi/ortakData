@@ -5,6 +5,94 @@
 }
 /* navbar start*/
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.left img {
+    max-width: 100px;
+    border-radius: 25px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 50px;
+    font-size: large;
+}
+
+.middle a:hover {
+    transition: all 0.5s;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(207, 76, 40);
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+    &  .btn1{
+        background-color: rgb(207, 76, 40);
+        color: aliceblue;
+        border-radius: 10px;
+        padding: 10px 25px;
+}
+&  .btn2{
+    background-color: rgb(207, 76, 40);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+}
+
+.giris {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.giris-yazi {
+    max-width: 500px;
+}
+
+.giris-yazi h1{
+    font-size: 50px;
+
+    & span {
+        color: chocolate;
+    }
+}
+
+.giris-yazi a {
+    background-color: chocolate;
+    color: black;
+    font-weight: 500;
+    font-size: xx-large;
+    padding: 10px 20px;
+}
+
+.giris-resim img{
+    border-radius: 20px;
+    max-width: 500px;
+    height: 400px;
+}
 /* navbar finish */
 
 .main-menu{
