@@ -1,4 +1,5 @@
-const BASE_URL = "https://dummyjson.com/recipes/"
+let limit=0
+const BASE_URL = `https://dummyjson.com/recipes?limit=${limit}`
 const datarecipiesCont = document.querySelector(".data-recipes")
 async function fetchProduct(){
     const recipes = await fetch(`${BASE_URL}`)
@@ -10,18 +11,11 @@ async function recipesProduct(){
     const recipiesSelect = await fetchProduct()
     const product = recipiesSelect.recipes
 
-
-    for(const products of product){
-    datarecipiesCont.innerHTML += `
-    <div class="recipies-box">
-        <img src="${products.image}">
-        <h2 class="recipies-title"></h2>
-    </div>
-    `
-}
-        
-    
+    return product
 }
 
+async function productRecipes(){
+    console.log(await recipesProduct());
+}
 
-recipesProduct();
+logor();
